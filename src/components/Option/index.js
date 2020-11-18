@@ -41,6 +41,7 @@ export default class Option extends Component {
           },
         )}
         onClick={this.onClick}
+        role="button"
         aria-selected={active}
         title={title}
       >
