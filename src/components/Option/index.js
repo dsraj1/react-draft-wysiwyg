@@ -46,7 +46,7 @@ export default class Option extends Component {
         title={title}
       >
         {children}
-      </div>
+      </button>
     );
   }
 }
